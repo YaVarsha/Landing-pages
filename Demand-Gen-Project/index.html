@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Speaking Session</title>
+</head>
+
+<body>
+    <div class="content__container">
+        <div class="content__logo">
+            <img src="./images/SS-LOGO-GREY.png" alt="logo">
+        </div>
+        <h1 class="content__heading">SPEAKING SESSION</h1>
+        <h4 class="content__sub__heading">What is First-Party Data & Why is it Critical to Successful Demand Gen in 2021?</h4>
+        <p class="content__paragraph">Check out this exclusive session from Ignite London 2021!</p>
+        <p class="content__paragraph">
+            As privacy regulations evolve, marketers must rethink their plans for
+            growth & acquisition and recognize the importance of quality data now
+            more than ever. This extends beyond data capture best practices and
+            involves a strategic focus on data-driven demand gen backed by intent.
+        </p>
+        <p class="content__paragraph">
+            Join Bhavesh & Anola for an insightful discussion about the importance of
+            first-party data that operates on a subscriber-based framework.
+        </p>
+        <p class="content__paragraph">In this session,</p>
+        <ul class="content__list">
+            <li>
+                <div class="list__type"></div>
+                <div class="list__data">Learn how to make first-party data the foundation of your marketing strategy</div>
+            </li>
+            <li>
+                <div class="list__type"></div>
+                <div class="list__data">Discover the benefits of collaborating with a data-driven lead gen partner vs building your own database</div>
+            </li>
+            <li>
+                <div class="list__type"></div>
+                <div class="list__data">Unlock the power of leveraging first-party data at thecampaign level</div>
+            </li>
+        </ul>
+        <div class="people">
+            <div class="card">
+                <div class="card__image__container">
+                    <img class="card__image" src="./images/Bhavesh.png" alt="Bhavesh">
+                </div>
+                <div class="card__data">
+                    <h3>Bhavesh Thakur</h3>
+                    <p>Vice President of Strategic Partnerships,</p>
+                    <p>Selling Simplified</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__image__container">
+                    <img src="./images/Anola.png" alt="Anola" class="card__image">
+                </div>
+                <div class="card__data">
+                    <h3>Anola Balthazar</h3>
+                    <p>Director of Marketing EMEA,</p>
+                    <p>Selling Simplified</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form__container">
+        <div class="form__logo">
+            <img src="./images/Ignite-London-Logo.png" alt="logo">
+        </div>
+        <div class="form__box">
+            <form class="form" id="registration__form">
+                <p>Your First Party Data Journey Starts Here Watch the Session</p>
+                <div class="input__container">
+                    <input type="text" name="first__name" id="first__name" placeholder="FIRST NAME">
+                </div>
+                <label for="first__name" id="first__name__error" class="error">*First Name must not be empty</label>
+                <div class="input__container">
+                    <input type="text" name="last__name" id="last__name" placeholder="LAST NAME">
+                </div>
+                <label for="last__name" id="last__name__error" class="error">*Last Name must not be empty</label>
+                <div class="input__container">
+                    <input type="text" name="job__title" id="job__title" placeholder="JOB TITLE">
+                </div>
+                <label for="job__title" id="job__title__error" class="error">*Job Title must not be empty</label>
+                <div class="input__container">
+                    <input type="text" name="email" id="email" placeholder="CORPORATE EMAIL">
+                </div>
+                <label for="email" id="email__error" class="error">*Email is not Valid. it should be in the form of test@test.com. It should not contain any special character</label>
+                <div class="input__container">
+                    <input type="text" name="mobile__number" id="mobile__number" placeholder="MOBILE NUMBER">
+                </div>
+                <label for="mobile__number" id="mobile__number__error" class="error">*Mobile Number is not Valid. it should start with 7 or 8 or 9 and must be of 10 digits</label>
+                <div class="input__container">
+                    <input type="text" name="company__name" id="company__name" placeholder="COMPANY NAME">
+                </div>
+                <label for="company__name" id="company__name__error" class="error">*Company Name must not be empty</label>
+                <div class="input__container">
+                    <select name="region" id="region">
+                        <option value="region" selected>REGION</option>
+                        <option value="asia">ASIA</option>
+                        <option value="europe">EUROPE</option>
+                        <option value="africa">AFRICA</option>
+                        <option value="north-america">NORTH AMERICA</option>
+                        <option value="south-america">SOUTH AMERICA</option>
+                        <option value="antarctica">ANTARCTICA</option>
+                        <option value="australia">AUSTRALIA</option>
+                    </select>
+                </div>
+                <label for="region" id="region__error" class="error">*Please select a region</label>
+                <div class="input__container">
+                    <input type="submit" value="REGISTER">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
